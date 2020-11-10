@@ -1,0 +1,77 @@
+@inproceedings{kogkalidis:lirmm-02952267,
+  TITLE = {{Neural Proof Nets}},
+  AUTHOR = {Kogkalidis, Konstantinos and Moortgat, Michael and Moot, Richard},
+  URL = {https://hal-lirmm.ccsd.cnrs.fr/lirmm-02952267},
+  NOTE = {14 pages, CoNLL2020},
+  BOOKTITLE = {Proceedings of the 24th Conference on Computational Natural Language Learning ({CoNLL})},
+  ADDRESS = {Virtual, Dominican Republic},
+  YEAR = {2020},
+  MONTH = Nov,
+  PDF = {https://hal-lirmm.ccsd.cnrs.fr/lirmm-02952267/file/2009.12702.pdf},
+  HAL_ID = {lirmm-02952267},
+  HAL_VERSION = {v1},
+  note = {https://github.com/konstantinosKokos/neural-proof-nets},
+  abstract = {Linear logic and the linear $\lambda$-calculus have a long standing tradition in the study of natural language form and meaning. Among the proof calculi of linear logic, proof nets are of particular interest, offering an attractive geometric representation of derivations that is unburdened by the bureaucratic complications of conventional prooftheoretic formats. Building on recent advances in set-theoretic learning, we propose a neural variant of proof nets based on Sinkhorn networks, which allows us to translate parsing as the problem of extracting syntactic primitives and permuting them into alignment. Our methodology induces a batch-efficient, end-to-end differentiable architecture that actualizes a formally grounded yet highly efficient neuro-symbolic parser. We test our approach on ÆThel, a dataset of type-logical derivations for written Dutch, where it manages to correctly transcribe raw text sentences into proofs and terms of the linear $\lambda$-calculus with an accuracy of as high as 70%.}
+}
+@inproceedings{kogkalidis-etal-2020-aethel,
+    title = "{{\AE}THEL}: Automatically Extracted Typelogical Derivations for {D}utch",
+    author = "Kogkalidis, Konstantinos  and
+      Moortgat, Michael  and
+      Moot, Richard",
+    booktitle = "Proceedings of the 12th Language Resources and Evaluation Conference",
+    month = may,
+    year = "2020",
+    address = "Marseille, France",
+    publisher = "European Language Resources Association",
+    url = "https://www.aclweb.org/anthology/2020.lrec-1.647",
+    pages = "5257--5266",
+    abstract = "We present {\AE}THEL, a semantic compositionality dataset for written Dutch. {\AE}THEL consists of two parts. First, it contains a lexicon of supertags for about 900 000 words in context. The supertags correspond to types of the simply typed linear lambda-calculus, enhanced with dependency decorations that capture grammatical roles supplementary to function-argument structures. On the basis of these types, {\AE}THEL further provides 72 192 validated derivations, presented in four formats: natural-deduction and sequent-style proofs, linear logic proofnets and the associated programs (lambda terms) for meaning composition. {\AE}THEL{'}s types and derivations are obtained by means of an extraction algorithm applied to the syntactic analyses of LASSY Small, the gold standard corpus of written Dutch. We discuss the extraction algorithm and show how {`}virtual elements{'} in the original LASSY annotation of unbounded dependencies and coordination phenomena give rise to higher-order types. We suggest some example usecases highlighting the benefits of a type-driven approach at the syntax semantics interface. The following resources are open-sourced with {\AE}THEL: the lexical mappings between words and types, a subset of the dataset consisting of 7 924 semantic parses, and the Python code that implements the extraction algorithm.",
+    language = "English",
+    ISBN = "979-10-95546-34-4",
+    note = "https://github.com/konstantinosKokos/Lassy-TLG-Extraction/"
+}
+@inproceedings{kogkalidis:lirmm-02313572,
+  TITLE = {{Deductive Parsing with an Unbounded Type Lexicon}},
+  AUTHOR = {Kogkalidis, Konstantinos and Moortgat, Michael and Moot, Richard and Tziafas, Giorgos},
+  URL = {https://hal-lirmm.ccsd.cnrs.fr/lirmm-02313572},
+  BOOKTITLE = {{SEMSPACE}},
+  ADDRESS = {Riga, Latvia},
+  YEAR = {2019},
+  MONTH = Aug,
+  PDF = {https://hal-lirmm.ccsd.cnrs.fr/lirmm-02313572/file/SEMSPACE2019_paper_4.pdf},
+  HAL_ID = {lirmm-02313572},
+  HAL_VERSION = {v1},
+  abstract={We present a novel deductive parsing framework for categorial type logics, modeled as the composition of two components. The first is an attention-based neural supertagger, which assigns words dependency-decorated, contextually informed linear types. It requires no predefined type lexicon, instead utilizing the type syntax to construct types inductively, enabling the use of a richer and more precise typing environment. The type annotations produced are used by the second component, a computationally efficient hybrid system that emulates the inference process of the type logic, iteratively producing a bottom-up reconstruction of the input's derivation-proof and the associated program for compositional meaning assembly. Initial experiments yield promising results for each of the components. }
+}
+@inproceedings{kogkalidis-etal-2019-constructive,
+    title = "Constructive Type-Logical Supertagging With Self-Attention Networks",
+    author = "Kogkalidis, Konstantinos  and
+      Moortgat, Michael  and
+      Deoskar, Tejaswini",
+    booktitle = "Proceedings of the 4th Workshop on Representation Learning for {NLP} ({RepL4NLP-2019})",
+    month = aug,
+    year = "2019",
+    address = "Florence, Italy",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/W19-4314",
+    doi = "10.18653/v1/W19-4314",
+    pages = "113--123",
+    abstract = "We propose a novel application of self-attention networks towards grammar induction. We present an attention-based supertagger for a refined type-logical grammar, trained on constructing types inductively. In addition to achieving a high overall type accuracy, our model is able to learn the syntax of the grammar{'}s type system along with its denotational semantics. This lifts the closed world assumption commonly made by lexicalized grammar supertaggers, greatly enhancing its generalization potential. This is evidenced both by its adequate accuracy over sparse word types and its ability to correctly construct complex types never seen during training, which, to the best of our knowledge, was as of yet unaccomplished.",
+    note = "https://github.com/konstantinosKokos/Lassy-TLG-Supertagging"
+}
+@InProceedings{10.1007/978-3-662-59620-3_5,
+  author="Kogkalidis, Konstantinos
+  and Melkonian, Orestis",
+  editor="Sikos, Jennifer
+  and Pacuit, Eric",
+  title="Towards a 2-Multiple Context-Free Grammar for the 3-Dimensional Dyck Language",
+  booktitle="At the Intersection of Language, Logic, and Information",
+  year="2019",
+  publisher="Springer Berlin Heidelberg",
+  address="Berlin, Heidelberg",
+  pages="79--92",
+  abstract="We discuss the open problem of parsing the Dyck language of 3 symbols, $D^3$, using a 2-Multiple Context-Free Grammar. We attempt to tackle this problem by implementing a number of novel meta-grammatical techniques and present the associated software packages we developed.",
+  isbn="978-3-662-59620-3",
+  url="https://link.springer.com/chapter/10.1007/978-3-662-59620-3_5",
+  note="https://github.com/omelkonian/dyck"
+}

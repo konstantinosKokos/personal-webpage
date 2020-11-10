@@ -1,0 +1,70 @@
+@footBG: @uuBrown;
+@footFontSize: 12px;
+@footTextColor: @navText;
+@footLinkColor: @uuCream;
+@footPad: 20px;
+@footMapPad: 30px;
+@madebyFontSize: 10px;
+
+#footer {
+  background: @footBG;
+  color: @footTextColor;
+  font-size: @footFontSize;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: @footHeight;
+}
+
+.foot-block {
+  float: left;
+  padding-top: @footPad;
+  padding-bottom: @footPad;
+}
+
+.foot-list {
+  padding: 0;
+  margin-top: 0;
+}
+
+.foot-item {
+  display: inline-flex;
+}
+
+.foot-head {
+  font-weight: 600;
+  margin-bottom: .25em;
+}
+
+.foot-list {
+  padding: 0;
+  margin-top: 0;
+}
+
+.foot-item {
+  display: block;
+}
+
+.foot-contact {
+  margin-top: 1em;
+}
+
+.foot-madeby {
+  position: absolute;
+  bottom: 0;
+  text-align: right;
+  right: @hMargin;
+  padding-top: @footPad;
+  padding-bottom: @footPad;
+  font-size: @madebyFontSize;
+}
+
+.foot-about {
+  width: 270px;
+  margin-right: 10px;
+}
+
+.foot-map {
+  padding-left: @footMapPad;
+  padding-right: @footMapPad;
+}

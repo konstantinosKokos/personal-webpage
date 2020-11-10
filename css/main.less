@@ -1,0 +1,74 @@
+/* Margins and positioning */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+#page {
+  min-height: 100vh - @footHeight;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: @footHeight + @vMargin;
+}
+
+.content {
+  display: inline-block;
+  padding-bottom: @vMargin + @footHeight;
+}
+
+.header {
+  margin-bottom: @vMargin;
+}
+
+.container {
+  padding-right: @hMargin;
+  padding-left: @hMargin;
+}
+
+.break {
+  clear: both;
+}
+
+/* Fonts and colors */
+
+body {
+  background-color: @bgColor;
+  color: @textColor;
+  font-family: @bodyFont;
+  font-size: 100%;
+  line-height: 1.4;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  color: @titleColor;
+  margin-top: @vMargin;
+  margin-bottom: @vMargin/2;
+  font-family: @headFont;
+  font-weight: @headWeight;
+}
+
+h2 {
+  color: @headColor;
+  margin-top: @vMargin/2;
+  margin-bottom: @vMargin/4;
+  font-family: @headFont;
+  font-weight: @headWeight;
+}
+
+h1 { font-size: 150%; }
+h2 { font-size: 120%; }
+h3 { font-size: 110%; }
+
+a {
+  text-decoration: none;
+  color: @linkColor;
+}
+
+#footer a {
+  color: @uuCream;
+}
