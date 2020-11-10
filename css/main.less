@@ -8,16 +8,15 @@ html, body {
 }
 
 #page {
-  min-height: 100vh - @footHeight;
+  height: 100%;
   width: 100%;
   display: flex;
   flex-direction: column;
-  margin-bottom: @footHeight + @vMargin;
 }
 
 .content {
-  display: inline-block;
-  padding-bottom: @vMargin + @footHeight;
+  flex: 1;
+  padding-bottom: @vMargin;
 }
 
 .header {
@@ -42,6 +41,7 @@ body {
   font-size: 100%;
   line-height: 1.4;
   -webkit-font-smoothing: antialiased;
+  min-height: 100%;
 }
 
 h1 {

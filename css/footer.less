@@ -2,8 +2,7 @@
 @footFontSize: 12px;
 @footTextColor: @navText;
 @footLinkColor: @uuCream;
-@footPad: 20px;
-@footMapPad: 30px;
+@footPad: 10px;
 @madebyFontSize: 10px;
 
 #footer {
@@ -13,7 +12,8 @@
   position: fixed;
   bottom: 0;
   width: 100%;
-  height: @footHeight;
+  // height: @footHeight;
+  display: inline-block;
 }
 
 .foot-block {
@@ -53,18 +53,19 @@
   position: absolute;
   bottom: 0;
   text-align: right;
-  right: @hMargin;
+  right: @vMargin;
   padding-top: @footPad;
   padding-bottom: @footPad;
   font-size: @madebyFontSize;
 }
 
 .foot-about {
-  width: 270px;
+  display: inline-block;
+  width: 20%;
   margin-right: 10px;
 }
 
 .foot-map {
-  padding-left: @footMapPad;
-  padding-right: @footMapPad;
+  padding-left: @footPad;
+  padding-right: @footPad;
 }
