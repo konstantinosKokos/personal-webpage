@@ -29,5 +29,5 @@ main = hakyll $ do
           getResourceBody
               >>= loadAndApplyTemplate "templates/main.html" defaultContext
               >>= relativizeUrls
-              
+
     match "templates/*" $ compile templateCompiler
