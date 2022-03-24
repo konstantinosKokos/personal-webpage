@@ -1,26 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="never" default-locale="en-US">
-  <info>
-    <title>Association for Computational Linguistics - Conference Proceedings</title>
-    <title-short>ACL</title-short>
-    <id>http://www.zotero.org/styles/association-for-computational-linguistics</id>
-    <link href="http://www.zotero.org/styles/association-for-computational-linguistics" rel="self"/>
-    <link href="http://www.aclweb.org/" rel="documentation"/>
-    <!-- No stable link for style documentation; cf. acl.bst, a bibtex style file distributed in each conference. -->
-    <!-- According to acl.bst, the ACL Conference Proceedings Style was based on the `aaai-named` format by Oren Patashnik in 1985, and later modified for the Proceedings of the ACL by Peter F. Patel-Schneider in 1988, Stuart Shieber in 1991, and Fernando Pereira in 1992. -->
-    <author>
-      <name>Hajime Senuma</name>
-      <email>hajime.senuma@gmail.com</email>
-      <uri>https://github.com/hajimes</uri>
-    </author>
-    <category citation-format="author-date"/>
-    <category field="engineering"/>
-    <category field="linguistics"/>
-    <summary>CSL for papers in ACL-related conference proceedings, e.g., ACL-HLT, EACL, NAACL-HTL, and EMNLP. (But NOT for the journal "Computational Linguistics")</summary>
-    <published>2013-11-20T21:00:00Z</published>
-    <updated>2015-01-22T22:19:51+00:00</updated>
-    <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
-  </info>
   <macro name="author">
     <names variable="author">
       <name form="long" and="text" delimiter=", "/>

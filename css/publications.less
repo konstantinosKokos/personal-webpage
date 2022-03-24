@@ -18,10 +18,10 @@
   margin-bottom:    @vMargin;
   margin-left:      @hMargin/2;
   margin-right:     @hMargin/2;
-  padding-right:     @hMargin/2;
+  padding-right:    @hMargin/2;
   padding-left:     @hMargin/2;
   display:          none;
-  overflow:         hidden;
+  overflow:         auto;
   color:            @uuBlack;
   background-color: @uuCream;
   font-style:       italic;
@@ -35,6 +35,10 @@
 
 .paper-item:not(:last-child) {
   margin-bottom:    @vMargin;
+}
+
+.paper-item:last-child {
+  margin-bottom:    150px;
 }
 
 .papertitle {

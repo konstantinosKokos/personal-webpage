@@ -9,7 +9,7 @@ maintainer:          example@example.com
 copyright:           2020 Author name here
 category:            Web
 build-type:          Simple
-extra-source-files:  README.md
+-- extra-source-files:  README.md
 cabal-version:       >=1.10
 
 executable personal-webpage
