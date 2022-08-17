@@ -1,5 +1,5 @@
 ---
-title: Supertagging beyond Trees with Heterogeneous Dynamic convolutions
+title: Supertagging Beyond Trees with Heterogeneous Dynamic Convolutions
 date: 2022-06-17
 type: Presentation
 at: The 32nd Meeting of Computational Linguistics in the Netherlands
