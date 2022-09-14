@@ -5,6 +5,7 @@ type: Presentation
 at: Compositionality in Formal and Distributional Models of Natural Language Semantics (WOLLIC 2019)
 in: Utrecht
 venue_link: https://wollic2019.sites.uu.nl
+slides: https://raw.githubusercontent.com/konstantinosKokos/presentations/master/Compositionality2019/compositionality2019.pdf
 ---
 
 Recent advances in distributional-compositional semantics propose the use

@@ -5,6 +5,7 @@ type: Presentation
 at: The 32nd Meeting of Computational Linguistics in the Netherlands
 in: Tilburg
 venue_link: https://clin2022.uvt.nl/
+slides: https://raw.githubusercontent.com/konstantinosKokos/presentations/master/CLIN2022/main.pdf
 ---
 
 The parsing pipeline in categorial grammar-based frameworks relies heavily on a supertagging component, a neural model that reads in a sentence and spits out a category assignment for each word; a correct assignment relieves the effort required to assemble constituents into a syntactically coherent unit.

@@ -5,6 +5,7 @@ type: Presentation
 at: "SemSpace 2019: Workshop on Semantic Spaces at the Intersection of NLP, Physics, and Cognitive Science (ESSLLI 2019)"
 in: Riga
 venue_link: https://sites.google.com/view/semspace2019
+slides: https://raw.githubusercontent.com/konstantinosKokos/presentations/master/SemSpace2019/pres.pdf
 ---
 
 We present a novel deductive parsing framework for categorial type logics, modeled as the composition of two components.

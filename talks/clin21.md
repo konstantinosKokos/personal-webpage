@@ -5,4 +5,5 @@ type: Presentation
 at: The 31st Meeting of Computational Linguistics in the Netherlands
 in: Virtual (Gent)
 venue_link: https://www.clin31.ugent.be/
+slides: https://raw.githubusercontent.com/konstantinosKokos/presentations/master/CLIN2021/clin_pers.pdf
 ---

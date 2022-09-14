@@ -5,6 +5,7 @@ type: Lecture
 at: "Compositional Models of Vector-based Semantics (ESSLLI 2022)"
 in: Galway
 venue_link: https://compositioncalculus.sites.uu.nl/course/
+slides: https://raw.githubusercontent.com/konstantinosKokos/presentations/master/ESSLLI22-course/lecture.pdf
 ---
 
 We see how the unary operations of modal logic can happily coexist with the
