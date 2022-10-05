@@ -170,7 +170,6 @@
               <date-part name="year"/>
             </date>
           </group>
-            <!-- <choose> -->
             <choose>
               <if variable="abstract">
                 <text prefix="[ &lt;button type=&quot;button&quot; class=&quot;collapsible&quot;&gt;"
@@ -199,7 +198,6 @@
                   suffix="&lt;/p&gt;&lt;/div&gt;"/>
               </if>
             </choose>
-            <!-- <text suffix="TEEEEEEEEEEEST &lt;/li&gt;"/> -->
         </if>
       </choose>
     </layout>
