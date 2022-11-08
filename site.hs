@@ -4,6 +4,7 @@ import           Data.Monoid ((<>))
 import           Control.Monad (liftM)
 import           Hakyll
 import           Text.CSL  as CSL
+import qualified Data.Text as T
 --------------------------------------------------------------------------------
 main :: IO ()
 main = hakyll $ do
@@ -22,6 +23,10 @@ main = hakyll $ do
     match "css/*" $ do
         route   idRoute
         compile compressCssCompiler
+
+    match "cv/cv.pdf" $ do
+        route $ constRoute "cv.pdf"
+        compile copyFileCompiler
 
     match "talks/*" $ do
         route $ setExtension "html"

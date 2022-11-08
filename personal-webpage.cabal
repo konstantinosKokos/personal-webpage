@@ -20,4 +20,5 @@ executable personal-webpage
                        hakyll,
                        filepath,
                        pandoc,
-                       pandoc-citeproc
+                       pandoc-citeproc,
+                       text
