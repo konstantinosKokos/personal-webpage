@@ -5,6 +5,7 @@ type: Presentation
 at: "Logic for the AI Spring"
 in: Como
 venue_link: https://lais.lakecomoschool.org
+slides: https://raw.githubusercontent.com/konstantinosKokos/presentations/master/Como2022/pres.pdf
 ---
 
 A brief exposition of the type-logical pipeline in the context of
