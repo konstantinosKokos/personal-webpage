@@ -1,0 +1,21 @@
+<ul class="paper-list">
+    $for(pubs)$
+        <li class="paper-item">
+            <div class="papertitle">$title$</div>
+            <div class="author">$authors$</div>
+            $if(venue)$
+                <div class="venue">$venue$. $date$.</div>
+            $else$
+                <div class="venue">$date$.</div>
+            $endif$
+            [ <button type="button" class="collapsible">abstract</button> ]
+            $if(link)$
+                [ <a href="$link$" target="_blank">paper</a> ]
+            $endif$
+            $if(code)$
+                [ <a href="$code$" target="_blank">code</a> ]
+            $endif$
+            <div class="abstract"><p>$body$</p></div>
+        </li>
+    $endfor$
+</ul>

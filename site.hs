@@ -31,9 +31,13 @@ main = hakyll $ do
     match "talks/*" $ do
         route $ setExtension "html"
         compile $ pandocCompiler
-              >>= loadAndApplyTemplate "templates/talk.html" talkCtx
-              >>= loadAndApplyTemplate "templates/main.html" talkCtx
-              >>= relativizeUrls
+            >>= loadAndApplyTemplate "templates/talk.html" talkCtx
+            >>= loadAndApplyTemplate "templates/main.html" talkCtx
+            >>= relativizeUrls
+
+    match "pubs/*" $ do
+        route idRoute
+        compile $ pandocCompiler
 
     create ["talks.html"] $ do
         route idRoute
@@ -41,11 +45,25 @@ main = hakyll $ do
             talks <- recentFirst =<< loadAll "talks/*"
             let archiveCtx =
                     listField "talks" talkCtx (return talks) `mappend`
-                    constField "title" "Test"            `mappend`
+                    constField "title" "Talks" `mappend`
                     defaultContext
-
+                    
             makeItem ""
                 >>= loadAndApplyTemplate "templates/talks.html" archiveCtx
+                >>= loadAndApplyTemplate "templates/main.html" archiveCtx
+                >>= relativizeUrls
+                
+    create ["publications.html"] $ do
+        route idRoute
+        compile $ do
+            pubs <- recentFirst =<< loadAll "pubs/*"
+            let archiveCtx = 
+                    listField "pubs" pubCtx (return pubs) `mappend` 
+                    constField "title" "Publications" `mappend`
+                    defaultContext
+                
+            makeItem ""
+                >>= loadAndApplyTemplate "templates/pubs.html" archiveCtx
                 >>= loadAndApplyTemplate "templates/main.html" archiveCtx
                 >>= relativizeUrls
 
@@ -54,20 +72,20 @@ main = hakyll $ do
       compile $ do
         talks <- fmap (take 4) . recentFirst =<< loadAll "talks/*"
         let indexCtx =
-                listField "talks" talkCtx (return talks) `mappend`
+               listField "talks" talkCtx (return talks) `mappend`
                 defaultContext
 
         getResourceBody
-            >>= applyAsTemplate indexCtx
-            >>= loadAndApplyTemplate "templates/main.html" indexCtx
-            >>= relativizeUrls
+               >>= applyAsTemplate indexCtx
+               >>= loadAndApplyTemplate "templates/main.html" indexCtx
+               >>= relativizeUrls
 
       match "pages/*" $ do
         route $ (gsubRoute "pages/" (const ""))
         compile $ do
-               getResourceBody
-                   >>= loadAndApplyTemplate "templates/main.html" defaultContext
-                   >>= relativizeUrls
+            getResourceBody
+                >>= loadAndApplyTemplate "templates/main.html" defaultContext
+                >>= relativizeUrls
 
     match "templates/*" $ compile templateCompiler
 
@@ -75,4 +93,10 @@ main = hakyll $ do
 talkCtx :: Context String
 talkCtx =
     dateField "date" "%B %e, %Y" `mappend`
+    defaultContext
+    
+
+pubCtx :: Context String
+pubCtx = 
+    dateField "date" "%B %Y" `mappend`
     defaultContext
