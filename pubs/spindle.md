@@ -3,6 +3,7 @@ title: "SPINDLE: Spinning Raw Text into Proof Nets with Graph Attention"
 date: 2023-03-01
 authors: <b>Konstantinos Kogkalidis</b>, Michael Moortgat and Richard Moot
 code: https://github.com/konstantinosKokos/spindle
+link: https://arxiv.org/abs/2302.12050
 venue: "Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics: System Demonstrations"
 type: workshop
 ---
