@@ -1,5 +1,5 @@
 ---
-title: "SPINDLE: Spinning Raw Text into Proof Nets with Graph Attention"
+title: "SPINDLE: Spinning Raw Text into Lambda Terms with Graph Attention"
 date: 2023-03-01
 authors: <b>Konstantinos Kogkalidis</b>, Michael Moortgat and Richard Moot
 code: https://github.com/konstantinosKokos/spindle
