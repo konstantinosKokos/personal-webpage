@@ -27,7 +27,7 @@ body {
 /* Fonts and colors */
 body {
   background-color: #ffffff;
-  color: #000000;
+  color: #363636;
   font-family: Ubuntu, Verdana, Helvetica, Arial, sans-serif;
   font-size: 100%;
   line-height: 1.4;
@@ -35,14 +35,14 @@ body {
   min-height: 100%;
 }
 h1 {
-  color: #c00a35;
+  color: #051603;
   margin-top: 10px;
   margin-bottom: 5px;
   font-family: Ubuntu, Ubuntu, Verdana, Helvetica, Arial, sans-serif;
   font-weight: 600;
 }
 h2 {
-  color: #24a793;
+  color: #270025;
   margin-top: 5px;
   margin-bottom: 2.5px;
   font-family: Ubuntu, Ubuntu, Verdana, Helvetica, Arial, sans-serif;
@@ -59,10 +59,10 @@ h3 {
 }
 a {
   text-decoration: none;
-  color: #002480;
+  color: #005eb8;
 }
 #header {
-  background-color: #6e3b23;
+  background-color: #0c000a;
 }
 .nav-list {
   list-style-type: none;
@@ -89,12 +89,12 @@ a {
 .nav-elem a:active,
 .nav-elem a:hover,
 .nav-elem a:focus {
-  background-color: #f3965e;
+  background-color: #ffffff;
 }
 .nav-head a:active,
 .nav-head a:hover,
 .nav-head a:focus {
-  background-color: #6e3b23;
+  background-color: #0c000a;
 }
 .nav-active a {
   background-color: #ffffff;
@@ -106,7 +106,7 @@ li.nav-right {
   float: right;
 }
 #footer {
-  background: #6e3b23;
+  background: #0c000a;
   color: #EEE;
   font-size: 12px;
   padding-right: 100px;
@@ -117,7 +117,7 @@ li.nav-right {
   display: inline-block;
 }
 #footer a {
-  color: #fae6ab;
+  color: #ffffff;
 }
 .foot-block {
   float: left;
@@ -184,7 +184,7 @@ li.nav-right {
   margin-top: 0.5em;
 }
 .collapsible {
-  color: #002480;
+  color: #005eb8;
   background-color: #ffffff;
   cursor: pointer;
   padding: 0px;
@@ -202,8 +202,8 @@ li.nav-right {
   padding-left: 50px;
   display: none;
   overflow: auto;
-  color: #000000;
-  background-color: #fae6ab;
+  color: #363636;
+  background-color: #ffffff;
   font-style: italic;
 }
 .paper-list {
@@ -216,12 +216,12 @@ li.nav-right {
 }
 .papertitle {
   font-weight: Ubuntu, Ubuntu, Verdana, Helvetica, Arial, sans-serif;
-  color: #c00a35;
+  color: #051603;
   font-size: 110%;
 }
 .venue {
   font-style: italic;
 }
 .url {
-  color: #002480;
+  color: #005eb8;
 }
