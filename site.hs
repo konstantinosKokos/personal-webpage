@@ -23,7 +23,7 @@ main = hakyll $ do
         route idRoute
         compile compressCssCompiler
 
-    match "cv/cv.pdf" $ do
+    match "cv.pdf" $ do
         route $ constRoute "cv.pdf"
         compile copyFileCompiler
 
