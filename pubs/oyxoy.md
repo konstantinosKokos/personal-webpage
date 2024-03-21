@@ -3,7 +3,7 @@ title: "OYXOY: A Modern NLP Test Suite for Modern Greek"
 date: 2023-09-14
 authors: <b>Konstantinos Kogkalidis</b>, Stergios Chatzikyriakidis, Eirini Chrysovalantou Giannikouri, Vassiliki Katsouli, Christina Klironomou, Christina Koula, Dimitris Papadakis, Thelka Pasparaki, Erofili Psaltaki, Efthymia Sakellariou and Hara Soupiona
 code: https://github.com/StergiosCha/OYXOY
-link: https://arxiv.org/abs/2309.07009
+link: https://aclanthology.org/2024.findings-eacl.21/
 venue: "Findings of the Association for Computational Linguistics: EACL 2023"
 type: "conference"
 ---
