@@ -27,7 +27,7 @@ body {
 /* Fonts and colors */
 body {
   background-color: #ffffff;
-  color: #363636;
+  color: #043636;
   font-family: Ubuntu, Verdana, Helvetica, Arial, sans-serif;
   font-size: 100%;
   line-height: 1.4;
@@ -45,6 +45,13 @@ h2 {
   color: #270025;
   margin-top: 5px;
   margin-bottom: 2.5px;
+  font-family: Ubuntu, Ubuntu, Verdana, Helvetica, Arial, sans-serif;
+  font-weight: 600;
+}
+h3 {
+  color: #051603;
+  margin-top: 20px;
+  margin-bottom: 10px;
   font-family: Ubuntu, Ubuntu, Verdana, Helvetica, Arial, sans-serif;
   font-weight: 600;
 }
@@ -202,7 +209,7 @@ li.nav-right {
   padding-left: 50px;
   display: none;
   overflow: auto;
-  color: #363636;
+  color: #043636;
   background-color: #ffffff;
   font-style: italic;
 }
