@@ -68,8 +68,10 @@ main = hakyll $ do
         route $ gsubRoute "pages/" (const "")
         compile $ do
             talks <- fmap (take 4) . recentFirst =<< loadAll "talks/*"
+            pubs <- fmap (take 1) . recentFirst =<< loadAll "pubs/*"
             let indexCtx =
                     listField "talks" talkCtx (return talks) <>
+                    listField "pubs" pubCtx (return pubs) <>
                     defaultContext
 
             getResourceBody >>= applyAsTemplate indexCtx
