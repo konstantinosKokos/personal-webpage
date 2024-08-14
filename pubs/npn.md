@@ -1,7 +1,7 @@
 ---
 title: Neural Proof Nets
 date: 2020-10-01
-authors: <b>Konstantinos Kogkalidis</b>, Michael Moortgat and Richard Moot
+authors: <u>Konstantinos Kogkalidis</u>, Michael Moortgat and Richard Moot
 code: https://github.com/konstantinosKokos/neural-proof-nets
 link: https://www.aclweb.org/anthology/2020.conll-1.3
 venue: Proceedings of the 24th Conference on Computational Natural Language Learning

@@ -1,7 +1,7 @@
 ---
 title: "On Tables with Numbers, with Numbers"
 date: 2024-08-13
-authors: <b>Konstantinos Kogkalidis</b> and Stergios Chatzikyriakidis
+authors: <u>Konstantinos Kogkalidis</u> and Stergios Chatzikyriakidis
 link: https://arxiv.org/abs/2408.06062
 venue: Preprint
 ---

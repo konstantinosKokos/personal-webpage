@@ -1,7 +1,7 @@
 ---
 title: "Æthel: Automatically Extracted Typeogical Derivations for Dutch"
 date: 2020-05-01
-authors: <b>Konstantinos Kogkalidis</b>, Michael Moortgat and Richard Moot
+authors: <u>Konstantinos Kogkalidis</u>, Michael Moortgat and Richard Moot
 code: https://github.com/konstantinosKokos/aethel
 link: https://www.aclweb.org/anthology/2020.lrec-1.647
 venue: Proceedings of the 12th Language Resources and Evaluation Conference

@@ -1,7 +1,7 @@
 ---
 title: Improving BERT Pretraining with Syntactic Supervision
 date: 2021-04-01
-authors: Giorgos Tziafas, <b>Konstantinos Kogkalidis</b>, Gijs Wijnholds and Michael Moortgat
+authors: Giorgos Tziafas, <u>Konstantinos Kogkalidis</u>, Gijs Wijnholds and Michael Moortgat
 code: https://github.com/gtziafas/Type-Enhanced-Language-Modeling
 link: https://aclanthology.org/2023.clasp-1.18/
 venue: Proceedings of the 2023 CLASP Conference on Learning with Small Data (LSD)

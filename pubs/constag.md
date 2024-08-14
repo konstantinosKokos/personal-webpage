@@ -1,7 +1,7 @@
 ---
 title: Constructive Type-Logical Supertagging with Self-Attention Networks
 date: 2019-08-01
-authors: <b>Konstantinos Kogkalidis</b>, Michael Moortgat and Tejaswini Deoskar
+authors: <u>Konstantinos Kogkalidis</u>, Michael Moortgat and Tejaswini Deoskar
 code: https://github.com/konstantinosKokos/Lassy-TLG-Supertagging
 link: https://aclanthology.org/W19-4314/
 venue: Proceedings of the 4th Workshop on Representation Learning for NLP (RepL4NLP-2019})

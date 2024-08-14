@@ -1,7 +1,7 @@
 ---
 title: Fighting the COVID-19 Infodemic with a Holistic BERT Ensemble
 date: 2021-06-01
-authors: Giorgos Tziafas, <b>Konstantinos Kogkalidis</b> and Tommaso Caselli
+authors: Giorgos Tziafas, <u>Konstantinos Kogkalidis</u> and Tommaso Caselli
 code: https://github.com/gtziafas/nlp4ifchallenge
 link: https://www.aclweb.org/anthology/2021.nlp4if-1.18
 venue: "Proceedings of the Fourth Workshop on NLP for Internet Freedom: Censorship, Disinformation, and Propaganda"

@@ -1,7 +1,7 @@
 ---
 title: "Learning Structure-Aware Representations of Dependent Types"
 date: 2023-12-27
-authors: <b>Konstantinos Kogkalidis</b>, Orestis Melkonian, Jean-Philippe Bernardy
+authors: <u>Konstantinos Kogkalidis</u>, Orestis Melkonian, Jean-Philippe Bernardy
 code: https://github.com/konstantinosKokos/neural-agda
 link: https://arxiv.org/abs/2402.02104
 venue: Preprint

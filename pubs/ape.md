@@ -1,7 +1,7 @@
 ---
 title: "Algebraic Positional Encodings"
 date: 2023-12-27
-authors: <b>Konstantinos Kogkalidis</b>, Jean-Philippe Bernardy, Vikas Garg
+authors: <u>Konstantinos Kogkalidis</u>, Jean-Philippe Bernardy, Vikas Garg
 code: https://github.com/konstantinosKokos/unitaryPE
 link: https://arxiv.org/abs/2312.16045
 venue: Preprint

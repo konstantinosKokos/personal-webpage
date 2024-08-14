@@ -1,7 +1,7 @@
 ---
 title: Geometry-Aware Supertagging with Heterogeneous Dynamic Convolutions
 date: 2022-05-01
-authors: <b>Konstantinos Kogkalidis</b> and Michael Moortgat
+authors: <u>Konstantinos Kogkalidis</u> and Michael Moortgat
 code: https://github.com/konstantinosKokos/dynamic-graph-supertagging
 link: https://aclanthology.org/2023.clasp-1.13/
 venue: Proceedings of the 2023 CLASP Conference on Learning with Small Data (LSD)

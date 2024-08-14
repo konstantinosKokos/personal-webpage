@@ -1,7 +1,7 @@
 ---
 title: "Diamonds Are Forever -- Theoretical and Empirical Support for a Dependency-Enhanced Type Logic"
 date: 2023-03-01
-authors: Michael Moortgat, <b>Konstantinos Kogkalidis</b> and Gijs Wijnholds
+authors: Michael Moortgat, <u>Konstantinos Kogkalidis</u> and Gijs Wijnholds
 code: https://github.com/gijswijnholds/malin\_2022
 link: https://link.springer.com/chapter/10.1007/978-3-031-21780-7_3
 venue: Logic and Algorithms in Computational Linguistics 2021

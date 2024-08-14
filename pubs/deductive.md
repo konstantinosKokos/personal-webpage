@@ -1,7 +1,7 @@
 ---
 title: Deductive Parsing with an Unbounded Type Lexicon
 date: 2019-08-01
-authors: <b>Konstantinos Kogkalidis</b>, Michael Moortgat, Giorgos Tziafas and Richard Moot
+authors: <u>Konstantinos Kogkalidis</u>, Michael Moortgat, Giorgos Tziafas and Richard Moot
 link: https://hal-lirmm.ccsd.cnrs.fr/lirmm-02313572
 venue: Preprint
 type: "workshop"

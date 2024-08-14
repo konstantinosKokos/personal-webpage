@@ -1,7 +1,7 @@
 ---
 title: A Logic-Based Framework for Natural Language Inference in Dutch
 date: 2022-02-01
-authors: Lasha Abzianidze and <b>Konstantinos Kogkalidis</b>
+authors: Lasha Abzianidze and <u>Konstantinos Kogkalidis</u>
 code: https://github.com/kovvalsky/prove_SICK_NL
 link: https://www.clinjournal.org/index.php/clinj/article/view/120
 venue: Computational Linguistics in the Netherlands

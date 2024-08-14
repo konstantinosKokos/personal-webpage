@@ -1,7 +1,7 @@
 ---
 title: Towards a 2-Multiple Context-Free Grammar for the 3-Dimensional Dyck Language
 date: 2019-07-06
-authors: <b>Konstantinos Kogkalidis</b> and Orestis Melkonian
+authors: <u>Konstantinos Kogkalidis</u> and Orestis Melkonian
 code: https://github.com/omelkonian/dyck
 link: https://link.springer.com/chapter/10.1007/978-3-662-59620-3_5
 venue: At the Intersection of Language, Logic, and Information
