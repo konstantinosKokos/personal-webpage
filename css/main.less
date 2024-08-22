@@ -1,4 +1,4 @@
-/* Margins and positioning */
+@import "constants";
 
 html, body {
   height: 100%;
@@ -19,16 +19,33 @@ html, body {
   padding-right: @hMargin;
   padding-left: @hMargin;
   padding-bottom: 150px;
-  max-width: 1000px;
+  width: 45%;
+  max-width: 850px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
 }
 
-#header {
-  margin-bottom: @vMargin;
-  padding-right: @hMargin;
-  padding-left: @hMargin;
+#content::before,
+#content::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: calc((100% - 45%) / 2);
+  max-width: calc((100% - 1000px) / 2);
+  background-color: @obsidianGray;
 }
 
-/* Fonts and colors */
+#content::before {
+  left: 0;
+}
+
+#content::after {
+  right: 0;
+}
+
+
 
 body {
   background-color: @bgColor;
@@ -58,8 +75,8 @@ h2 {
 
 h3 {
   color: @titleColor;
-  margin-top: @vMargin;
-  margin-bottom: @vMargin;
+  margin-top: @vMargin/2;
+  margin-bottom: @vMargin/4;
   font-family: @headFont;
   font-weight: @headWeight;
 }
@@ -71,4 +88,8 @@ h3 { font-size: 110%; }
 a {
   text-decoration: none;
   color: @linkColor;
+}
+
+p {
+  text-align: justify;
 }

@@ -1,6 +1,4 @@
-// .paper-item {
-//   display: inline-flex;
-// }
+@import "constants";
 
 .collapsible {
   color:            @linkColor;
@@ -27,31 +25,27 @@
 }
 
 .paper-list {
-  padding:          20px;
-  margin-top:       @vMargin/8;
-}
 
-.paper-item:not(:last-child) {
-  margin-bottom:    @vMargin;
-}
+  .paper-item:not(:last-child) {
+    margin-bottom: @vMargin;
+  }
 
-// .paper-item:last-child {
-//   margin-bottom:    150px;
-// }
+  .papertitle {
+    font-weight: bold;
+    color: @obsidianGreen;
+  }
 
-.papertitle {
-  font-weight:      bold;
-  color:            @obsidianGreen;
-}
+  .author {
+  }
 
-.author {}
+  .venue {
+    font-style: italic;
+  }
 
-.venue {
-  font-style:       italic;
-}
+  .date {
+  }
 
-.date {}
-
-.url {
-  color:            @linkColor;
+  .url {
+    color: @linkColor;
+  }
 }

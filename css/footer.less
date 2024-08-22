@@ -1,3 +1,5 @@
+@import "constants";
+
 @footFontSize: 12px;
 @footTextColor: @navText;
 @footLinkColor: @white;
@@ -5,12 +7,13 @@
 @madebyFontSize: 10px;
 
 #footer {
-  background:     @footBG;
+  background:     @obsidianBlack;
   color:          @footTextColor;
   font-size:      @footFontSize;
   padding-right:  @hMargin;
   padding-left:   @hMargin;
   position:       fixed;
+  z-index:        2;
   bottom:         0;
   width:          100%;
   display:        inline-block;
