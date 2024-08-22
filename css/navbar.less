@@ -1,4 +1,6 @@
-@navBG:   @footBG;
+@import "constants";
+
+@navBG:   @obsidianBlack;
 @navHi:   @white;
 @navAct:  @white;
 @navHead: #EEE;
@@ -8,21 +10,35 @@
 @navPad: 10px;
 
 #header {
-  background-color: @navBG;
+  background: @obsidianBlack;
+  margin-bottom: @vMargin;
+  padding-right: @hMargin;
+  padding-left: @hMargin;
+  position: relative;
+  z-index: 2;
+
+  // Center the content of the header
+  display: flex;
+  justify-content: center;
 }
 
 .nav-list {
   list-style-type: none;
-  margin: 0px 10px;
-  padding: 0px;
-  overflow: hidden;
-  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;  // Use Flexbox for alignment
+  justify-content: center; // Center align the nav list
+  width: auto; // Set to auto to avoid taking up 100% width
+}
+
+.nav-elem {
+  margin: 0 @hMargin/4;
+  font-size: 1.15rem;
 }
 
 .nav-elem a {
   display: block;
   padding: @navPad;
-  margin: 0px;
   color: @navText;
   font-family: @headFont;
   font-weight: @navWeight;
@@ -31,7 +47,7 @@
 }
 
 .nav-head a {
-  padding-left: 0px;
+  padding-left: 0;
   padding-right: 1.5 * @navPad;
   color: @navHead;
 }
@@ -40,22 +56,15 @@
 .nav-elem a:hover,
 .nav-elem a:focus {
   background-color: @navHi;
+  color: @navBG;
 }
 
-.nav-head a:active,
-.nav-head a:hover,
-.nav-head a:focus {
-  background-color: @navBG;
-}
 
 .nav-active a {
   background-color: @navAct;
 }
 
-li.nav-left {
-  float: left;
-}
-
+li.nav-left,
 li.nav-right {
-  float: right;
+  float: none;  // Remove float to allow Flexbox to control positioning
 }

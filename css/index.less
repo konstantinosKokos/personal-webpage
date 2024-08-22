@@ -1,25 +1,50 @@
-.break {
-  clear: both;
+@import "constants";
+
+@info-box-bg: @white;
+
+.info-box {
+  display: flex;
+  align-items: flex-start;
+  background-color: @info-box-bg;
+  padding-bottom: @vMargin;
+  box-sizing: border-box;
+  max-width: 100%;
+  margin-top: @vMargin;
+  flex-wrap: wrap;
 }
 
 .img-me {
-  float: left;
-  max-height: 250px;
-  margin-right: 20px;
+  margin-right: @hMargin/8;
+
+  img {
+    max-width: 250px;
+    height: auto;
+    border-radius: 8px;
+  }
 }
 
-.name {
-  margin-bottom: .33em;
-}
+.text-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow-x: auto;
+  width: auto;
+  max-width: 100%;
+  flex-shrink: 0;
 
-.affiliation {
-  margin-top: .5em;
-}
+  .name {
+    margin: 0 0 @vMargin 0;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
 
-.contact {
-  margin-top: .5em;
-}
+  .details {
+    .role, .contact {
+      margin-bottom: @vMargin/2;
+    }
 
-.profiles {
-  margin-top: .5em;
+    .contact {
+      margin-top: @vMargin;
+    }
+  }
 }
