@@ -19,6 +19,7 @@
 
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .nav-list {
@@ -27,28 +28,32 @@
   padding: 0;
   display: flex;
   justify-content: center;
-  width: auto;
+  align-items: center;
 }
 
 .nav-elem {
-  margin: 0 @hMargin/4;
+  margin: 0;
   font-size: 1.15rem;
+  display: flex;
+  align-items: center; 
 }
 
 .nav-elem a {
   display: block;
-  padding: @navPad;
+  padding: @navPad @hMargin/4;
   color: @navText;
   font-family: @headFont;
   font-weight: @navWeight;
   text-align: center;
   text-decoration: none;
+  white-space: nowrap;
 }
 
 .nav-head a {
-  padding-left: 0;
-  padding-right: 1.5 * @navPad;
+  padding-left: @hMargin/4;
+  padding-right: @hMargin/4;
   color: @navHead;
+  white-space: nowrap;
 }
 
 .nav-elem a:active,
@@ -58,12 +63,6 @@
   color: @navBG;
 }
 
-
 .nav-active a {
   background-color: @navAct;
-}
-
-li.nav-left,
-li.nav-right {
-  float: none;  // Remove float to allow Flexbox to control positioning
 }
