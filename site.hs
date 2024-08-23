@@ -26,7 +26,14 @@ main = hakyll $ do
     match "cv.pdf" $ do
         route $ constRoute "cv.pdf"
         compile copyFileCompiler
-
+        
+    create ["cv.html"] $ do
+        route idRoute
+        compile $ makeItem ""
+            >>= loadAndApplyTemplate "templates/embed-pdf.html" (pdfCtx "cv.pdf")
+            >>= loadAndApplyTemplate "templates/main.html" defaultContext
+            >>= relativizeUrls
+                        
     match "talks/*" $ do
         route $ setExtension "html"
         compile $ pandocCompiler
@@ -95,4 +102,9 @@ talkCtx =
 pubCtx :: Context String
 pubCtx = 
     dateField "date" "%B %Y" <>
+    defaultContext
+
+pdfCtx :: String -> Context String
+pdfCtx pdfPath =
+    constField "pdfPath" pdfPath <>
     defaultContext
