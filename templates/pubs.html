@@ -1,2 +1,67 @@
 <h4>Here's a list of my academic outputs, chronologically sorted:</h4>
-$partial("templates/pub-list.html")$
+
+<h2>Thesis</h2>
+<ul class="paper-list">
+    $for(books)$
+<li class="paper-item">
+    <span class="papertitle">$title$</span>.
+    <span class="author">$authors$</span>.
+    $if(venue)$
+    <span class="venue">$venue$</span>.
+    $endif$
+    <span class="date">$date$</span>.<br>
+    [ <button type="button" class="collapsible">abstract</button> ]
+    $if(link)$
+    [ <a href="$link$" target="_blank">paper</a> ]
+    $endif$
+    $if(code)$
+    [ <a href="$code$" target="_blank">code</a> ]
+    $endif$
+    <div class="abstract"><p><div class="abstract_inner>"$body$</div></li>
+</ul>
+$endfor$
+
+<h2>Conference & Workshop Proceedings</h2>
+
+<ol class="paper-list">
+    $for(proceedings)$
+    <li class="paper-item">
+        <span class="papertitle">$title$</span>.
+        <span class="author">$authors$</span>.
+        $if(venue)$
+        <span class="venue">$venue$</span>.
+        $endif$
+        <span class="date">$date$</span>.<br>
+        [ <button type="button" class="collapsible">abstract</button> ]
+        $if(link)$
+        [ <a href="$link$" target="_blank">paper</a> ]
+        $endif$
+        $if(code)$
+        [ <a href="$code$" target="_blank">code</a> ]
+        $endif$
+        <div class="abstract"><p><div class="abstract_inner>"$body$</div></div>
+    </li>
+    $endfor$
+</ol>
+
+<h2>Drafts & Preprints</h2>
+
+<ol class="paper-list">
+    $for(preprints)$
+    <li class="paper-item">
+        <span class="papertitle">$title$</span>.
+        <span class="author">$authors$</span>.
+        <span class="date">$date$</span>.<br>
+        [ <button type="button" class="collapsible">abstract</button> ]
+        $if(link)$
+        [ <a href="$link$" target="_blank">paper</a> ]
+        $endif$
+        $if(code)$
+        [ <a href="$code$" target="_blank">code</a> ]
+        $endif$
+        <div class="abstract"><p><div class="abstract_inner>"$body$</div></div>
+    </li>
+    $endfor$
+</ol>
+
+

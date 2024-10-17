@@ -41,7 +41,7 @@ main = hakyll $ do
             >>= loadAndApplyTemplate "templates/main.html" talkCtx
             >>= relativizeUrls
 
-    match "pubs/*" $ do
+    match "pubs/**" $ do
         route idRoute
         compile pandocCompiler
 
@@ -61,9 +61,15 @@ main = hakyll $ do
     create ["publications.html"] $ do
         route idRoute
         compile $ do
-            pubs <- recentFirst =<< loadAll "pubs/*"
-            let archiveCtx = 
-                    listField "pubs" pubCtx (return pubs) <>
+            books <- recentFirst =<< loadAll "pubs/books/*"
+            proceedings <- recentFirst =<< loadAll "pubs/proceedings/*"
+            preprints <- recentFirst =<< loadAll "pubs/preprints/*"
+            
+                        
+            let archiveCtx =
+                    listField "books" pubCtx (return books) <> 
+                    listField "proceedings" pubCtx (return proceedings) <>
+                    listField "preprints" pubCtx (return preprints) <>
                     constField "title" "Publications" <>
                     defaultContext
                 
@@ -75,7 +81,7 @@ main = hakyll $ do
         route $ gsubRoute "pages/" (const "")
         compile $ do
             talks <- fmap (take 4) . recentFirst =<< loadAll "talks/*"
-            pubs <- fmap (take 1) . recentFirst =<< loadAll "pubs/*"
+            pubs <- fmap (take 1) . recentFirst =<< loadAll "pubs/**"
             let indexCtx =
                     listField "talks" talkCtx (return talks) <>
                     listField "pubs" pubCtx (return pubs) <>
