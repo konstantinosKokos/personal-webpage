@@ -3,7 +3,8 @@ title: "Nominal Class Assignment in Swahili: A Computational Account"
 date: 2024-10-17
 authors: Giada Palmieri and <u>Konstantinos Kogkalidis</u>
 link: https://arxiv.org/abs/2410.12406
-venue: Preprint
+venue: Proceedings of the 10th Italian Conference on Computational Linguistics (CLiC-it 2024) 
+venue-short: CliC-it-2024 
 ---
 
 We discuss the open question of the relation between semantics and nominal
