@@ -1,7 +1,7 @@
 ---
 title: "Deductive Parsing with an Unbounded Type Lexicon"
 date: 2019-08-09
-type: Presentation
+type: Contributed
 at: "SemSpace 2019: Workshop on Semantic Spaces at the Intersection of NLP, Physics, and Cognitive Science (ESSLLI 2019)"
 in: Riga
 venue_link: https://sites.google.com/view/semspace2019

@@ -1,7 +1,7 @@
 ---
 title: "Algebraic Positional Encodigns"
 date: 2024-12-11
-type: Poster (Spotlight)
+type: Contributed (Poster, Spotlight)
 at: The Thirty-Eighth Annual Conference on Neural Information Processing Systems
 in: Vancouver
 venue_link: https://neurips.cc/virtual/2024/poster/95293

@@ -1,7 +1,7 @@
 ---
 title: Typed Supertags and Semantic Parses for Dutch
 date: 2020-01-30
-type: Presentation
+type: Contributed
 at: The 30th Meeting of Computational Linguistics in the Netherlands
 in: Utrecht
 venue_link: https://clin30.sites.uu.nl

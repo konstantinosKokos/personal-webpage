@@ -1,7 +1,7 @@
 ---
 title: "Neurosymbolic Proof Search for Linguistics"
 date: 2022-09-16
-type: Presentation
+type: Contributed
 at: "Logic for the AI Spring"
 in: Como
 venue_link: https://lais.lakecomoschool.org

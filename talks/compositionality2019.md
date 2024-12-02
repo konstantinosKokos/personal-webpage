@@ -1,7 +1,7 @@
 ---
 title: From Raw Text to Linear λ-Terms
 date: 2019-07-06
-type: Presentation
+type: Contributed
 at: Compositionality in Formal and Distributional Models of Natural Language Semantics (WOLLIC 2019)
 in: Utrecht
 venue_link: https://wollic2019.sites.uu.nl

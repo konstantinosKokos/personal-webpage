@@ -1,7 +1,7 @@
 ---
 title: "Dependency as Modality, Parsing as Permutation"
 date: 2024-08-02
-type: Talk
+type: Invited
 at: "European Summer School of Logic, Language and Information (ESSLLI 2024)"
 in: Leuven
 venue_link: https://2024.esslli.eu/
