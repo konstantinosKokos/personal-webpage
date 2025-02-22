@@ -26,6 +26,10 @@ main = hakyll $ do
     match "cv.pdf" $ do
         route $ constRoute "cv.pdf"
         compile copyFileCompiler
+       
+    match "thesis.pdf" $ do
+        route $ constRoute "thesis.pdf"
+        compile copyFileCompiler
         
     create ["cv.html"] $ do
         route idRoute
