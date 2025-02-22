@@ -3,21 +3,22 @@
 <h2>Thesis</h2>
 <ul class="paper-list">
     $for(books)$
-<li class="paper-item">
-    <span class="papertitle">$title$</span>.
-    <span class="author">$authors$</span>.
-    $if(venue)$
-    <span class="venue">$venue$</span>.
-    $endif$
-    <span class="date">$date$</span>.<br>
-    [ <button type="button" class="collapsible">abstract</button> ]
-    $if(link)$
-    [ <a href="$link$" target="_blank">paper</a> ]
-    $endif$
-    $if(code)$
-    [ <a href="$code$" target="_blank">code</a> ]
-    $endif$
-    <div class="abstract"><p><div class="abstract_inner>"$body$</div></li>
+    <li class="paper-item">
+        <span class="papertitle">$title$</span>.
+        <span class="author">$authors$</span>.
+        $if(venue)$
+        <span class="venue">$venue$</span>.
+        $endif$
+        <span class="date">$date$</span>.<br>
+        [ <button type="button" class="collapsible">abstract</button> ]
+        $if(link)$
+        [ <a href="$link$" target="_blank">paper</a> ]
+        $endif$
+        $if(code)$
+        [ <a href="$code$" target="_blank">code</a> ]
+        $endif$
+        <div class="abstract"><div class="abstract_inner>"><p>$body$</div></div>
+    </li>
 </ul>
 $endfor$
 
@@ -39,7 +40,7 @@ $endfor$
         $if(code)$
         [ <a href="$code$" target="_blank">code</a> ]
         $endif$
-        <div class="abstract"><p><div class="abstract_inner>"$body$</div></div>
+        <div class="abstract"><div class="abstract_inner>"><p>$body$</div></div>
     </li>
     $endfor$
 </ol>
@@ -59,7 +60,7 @@ $endfor$
         $if(code)$
         [ <a href="$code$" target="_blank">code</a> ]
         $endif$
-        <div class="abstract"><p><div class="abstract_inner>"$body$</div></div>
+        <div class="abstract"><div class="abstract_inner>"><p>$body$</div></div>
     </li>
     $endfor$
 </ol>
