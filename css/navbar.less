@@ -7,7 +7,7 @@
 @navText: #EEE;
 @navWeight: 500;
 
-@navPad: 10px;
+@navPad: 13px;
 
 #header {
   background: @obsidianBlack;
@@ -29,6 +29,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 55%;
+  max-width: 1050px;
 }
 
 .nav-elem {
@@ -36,17 +38,21 @@
   font-size: 1.15rem;
   display: flex;
   align-items: center; 
+  flex-grow: 1;
+  text-align: center;
 }
 
 .nav-elem a {
   display: block;
-  padding: @navPad @hMargin/4;
+  padding: @navPad @hMargin/2;
   color: @navText;
   font-family: @headFont;
   font-weight: @navWeight;
+  font-size: 110%;
   text-align: center;
   text-decoration: none;
   white-space: nowrap;
+  width: 100%;
 }
 
 .nav-head a {
