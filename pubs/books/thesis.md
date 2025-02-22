@@ -1,5 +1,5 @@
 ---
-title: "Dependency as Modality, Parsing as Permutation: A Neurosymbolic Perspective on Categorial Grammars (PhD Thesis)"
+title: "Dependency as Modality, Parsing as Permutation: A Neurosymbolic Perspective on Categorial Grammars"
 date: 2023-06-01
 authors: <u>Konstantinos Kogkalidis</u>
 link: https://www.lotpublications.nl/dependency-as-modality-parsing-as-permutation
