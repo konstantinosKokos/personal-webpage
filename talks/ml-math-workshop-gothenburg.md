@@ -1,5 +1,5 @@
 ---
-title: "LLM-free Learning from Theorem Structure"
+title: "LLM-free Representation Learning from Theorem Structure"
 date: 2025-04-21
 type: Invited
 at: "Deep-Learning Models for Mathematics and Type Theory"
