@@ -1,5 +1,5 @@
 ---
-title: "TBD"
+title: "Grammaticality as Provability"
 date: 2025-05-28
 type: Invited
 at: "Logic seminar of the University of Groningen"
