@@ -84,7 +84,7 @@ main = hakyll $ do
     match "pages/index.html" $ do
         route $ gsubRoute "pages/" (const "")
         compile $ do
-            talks <- fmap (take 4) . recentFirst =<< loadAll "talks/*"
+            talks <- fmap (take 6) . recentFirst =<< loadAll "talks/*"
             pubs <- fmap (take 1) . recentFirst =<< loadAll "pubs/**"
             let indexCtx =
                     listField "talks" talkCtx (return talks) <>
