@@ -4,7 +4,8 @@ date: 2022-05-01
 authors: <u>Konstantinos Kogkalidis</u> and Gijs Wijnholds
 code: https://github.com/gijswijnholds/discontinuous-probing
 link: https://aclanthology.org/2022.findings-acl.298
-venue: "Findings of the Association for Computational Linguistics: ACL 2022"
+venue: Findings of the Association for Computational Linguistics
+venue-short: ACL 2022
 type: "conference"
 ---
 

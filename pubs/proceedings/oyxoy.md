@@ -4,7 +4,8 @@ date: 2023-09-14
 authors: <u>Konstantinos Kogkalidis</u>, Stergios Chatzikyriakidis, Eirini Chrysovalantou Giannikouri, Vassiliki Katsouli, Christina Klironomou, Christina Koula, Dimitris Papadakis, Thelka Pasparaki, Erofili Psaltaki, Efthymia Sakellariou and Hara Soupiona
 code: https://github.com/StergiosCha/OYXOY
 link: https://aclanthology.org/2024.findings-eacl.21/
-venue: "Findings of the Association for Computational Linguistics: EACL 2023"
+venue: Findings of the Association for Computational Linguistics
+venue-short: EACL 2024
 type: "conference"
 ---
 

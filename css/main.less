@@ -7,6 +7,10 @@ html, body {
   padding: 0px;
 }
 
+html {
+  font-size: clamp(1.0625rem, calc(0.725rem + 0.375vw), 1.625rem);
+}
+
 #page {
   height: 100%;
   width: 100%;
@@ -18,67 +22,53 @@ html, body {
   flex: 1;
   padding-right: @hMargin;
   padding-left: @hMargin;
-  padding-bottom: 150px;
-  width: 45%;
-  max-width: 850px;
+  padding-top: 2.5rem;
+  padding-bottom: 4rem;
+  max-width: @measure;
   margin: 0 auto;
   position: relative;
   z-index: 1;
+  background-color: @pageColor;
 }
 
-#content::before,
-#content::after {
-  content: "";
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  width: calc((100% - 45%) / 2);
-  max-width: calc((100% - 1000px) / 2);
-  background-color: @obsidianGray;
-}
-
-#content::before {
-  left: 0;
-}
-
-#content::after {
-  right: 0;
+@media (max-width: 1000px) {
+  #content, #header {
+    max-width: none;
+    padding-left: (@hMargin / 4);
+    padding-right: (@hMargin / 4);
+  }
 }
 
 
 
 body {
-  background-color: @bgColor;
+  background-color: @frameColor;
   color: @textColor;
   font-family: @bodyFont;
-  font-size: 100%;
-  line-height: 1.4;
+  line-height: 1.42;
   -webkit-font-smoothing: antialiased;
   min-height: 100%;
 }
 
-h1 {
-  color: @titleColor;
-  margin-top: @vMargin;
-  margin-bottom: @vMargin/2;
+h1, h2, h3, h4 {
   font-family: @headFont;
   font-weight: @headWeight;
+  margin-top: 1.4em;
+  margin-bottom: 0.15em;
 }
 
-h2 {
-  color: @headColor;
-  margin-top: @vMargin;
-  margin-bottom: @vMargin/4;
-  font-family: @headFont;
-  font-weight: @headWeight;
+h1, h2, h3 { color: @headingColor; }
+
+h1 + *, h2 + *, h3 + * {
+  margin-top: 0;
 }
 
-h3 {
-  color: @titleColor;
-  margin-top: @vMargin;
-  margin-bottom: @vMargin/4;
-  font-family: @headFont;
-  font-weight: @headWeight;
+h4 {
+  margin-bottom: 1em;
+}
+
+#content > :first-child {
+  margin-top: 0;
 }
 
 h1 { font-size: 150%; }
@@ -90,7 +80,19 @@ a {
   color: @linkColor;
 }
 
+#content a:hover {
+  text-decoration: underline;
+}
+
+.talktitle {
+  font-weight: bold;
+}
+
+.venue {
+  font-style: italic;
+}
+
 p {
-  margin-top: @vMargin/4;
+  margin-top: (@vMargin / 4);
   text-align: justify;
 }

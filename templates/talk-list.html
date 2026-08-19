@@ -1,12 +1,12 @@
 <ul>
     $for(talks)$
         <li>
-            <div><a href="$url$">$title$</a></div>
+            <div><a class="talktitle" href="$url$">$title$</a></div>
             <div> $date$ in $in$</div>
             $if(venue_link)$
-                <div>$type$ @ <a href="$venue_link$" <b>$at$</b></a></div>
+                <div>$type$ @ <a class="venue" href="$venue_link$">$at$</a></div>
             $else$
-                <div>$type$ @ $at$ in $in$</div>
+                <div>$type$ @ <span class="venue">$at$</span> in $in$</div>
             $endif$
         </li>
     $endfor$

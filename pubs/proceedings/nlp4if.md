@@ -5,6 +5,7 @@ authors: Giorgos Tziafas, <u>Konstantinos Kogkalidis</u> and Tommaso Caselli
 code: https://github.com/gtziafas/nlp4ifchallenge
 link: https://www.aclweb.org/anthology/2021.nlp4if-1.18
 venue: "Proceedings of the Fourth Workshop on NLP for Internet Freedom: Censorship, Disinformation, and Propaganda"
+venue-short: NLP4IF 2021
 type: "workshop"
 ---
 

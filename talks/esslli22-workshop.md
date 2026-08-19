@@ -5,7 +5,7 @@ type: Contributed
 at: "End-to-End Compositional Models of Vector-Based Semantics (ESSLLI 2022)"
 in: Galway
 venue_link: https://compositioncalculus.sites.uu.nl/workshop/
-slides: https://raw.githubusercontent.com/konstantinosKokos/presentations/master/ESSLLI22-workshop/workshop.pdf
+slides: /slides/esslli22-workshop.pdf
 ---
 
 We play around with neural proof nets, focusing on how they combine with

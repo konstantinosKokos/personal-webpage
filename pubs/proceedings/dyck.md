@@ -5,6 +5,7 @@ authors: <u>Konstantinos Kogkalidis</u> and Orestis Melkonian
 code: https://github.com/omelkonian/dyck
 link: https://link.springer.com/chapter/10.1007/978-3-662-59620-3_5
 venue: At the Intersection of Language, Logic, and Information
+venue-short: ESSLLI 2018
 type: "conference"
 ---
 

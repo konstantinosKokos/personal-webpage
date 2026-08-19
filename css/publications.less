@@ -2,47 +2,54 @@
 
 .collapsible {
   color:            @linkColor;
-  background-color: @bgColor;
+  background-color: transparent;
   cursor:           pointer;
   padding:          0;
   width:            auto;
   border:           none;
-  font-size:        100%;
+  font-family:      inherit;
+  font-size:        inherit;
+  font-style:       inherit;
+  line-height:      inherit;
+}
+
+.collapsible:hover {
+  text-decoration: underline;
+}
+
+.collapsible::before {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-right: 0.35em;
+  vertical-align: middle;
+  border-left: 0.3em solid transparent;
+  border-right: 0.3em solid transparent;
+  border-top: 0.34em solid currentColor;
+}
+
+.collapsible.active::before {
+  border-top: none;
+  border-bottom: 0.34em solid currentColor;
 }
 
 .abstract {
-  margin:           @vMargin/6 @hMargin/6;
-  padding-right:    @hMargin/6;
-  padding-left:     @hMargin/6;
-  display:          none;
-  overflow:         auto;
-  color:            @obsidianGray;
-  background-color: @white;
-  font-style:       italic;
+  display:      none;
+  overflow:     auto;
+  margin:       0.5em 0 0.75em (@hMargin / 8);
+  padding-left: (@hMargin / 8);
+  border-left:  2px solid fade(@obsidianGray, 25%);
 }
 
 .paper-list {
 
   .paper-item:not(:last-child) {
-    margin-bottom: @vMargin / 4;
+    margin-bottom: (@vMargin / 4);
   }
 
   .papertitle {
     font-weight: bold;
     color: @obsidianGreen;
-  }
-
-  .author {
-  }
-
-  .venue {
-    font-style: italic;
-  }
-
-  .date {
-  }
-
-  .url {
-    color: @linkColor;
   }
 }

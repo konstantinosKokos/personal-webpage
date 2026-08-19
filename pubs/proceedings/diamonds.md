@@ -1,10 +1,11 @@
 ---
-title: "Diamonds Are Forever -- Theoretical and Empirical Support for a Dependency-Enhanced Type Logic"
+title: "Diamonds Are Forever – Theoretical and Empirical Support for a Dependency-Enhanced Type Logic"
 date: 2023-03-01
 authors: Michael Moortgat, <u>Konstantinos Kogkalidis</u> and Gijs Wijnholds
 code: https://github.com/gijswijnholds/malin_2022
 link: https://link.springer.com/chapter/10.1007/978-3-031-21780-7_3
-venue: Logic and Algorithms in Computational Linguistics 2021
+venue: Logic and Algorithms in Computational Linguistics
+venue-short: LACompLing 2021
 type: bookchapter
 ---
 

@@ -7,20 +7,20 @@
         <span class="papertitle">$title$</span>.
         <span class="author">$authors$</span>.
         $if(venue)$
-        <span class="venue">$venue$</span>.
+        <span class="venue">$venue$</span>$if(venue-short)$ ($venue-short$)$endif$.
         $endif$
         <span class="date">$date$</span>.<br>
         [ <button type="button" class="collapsible">abstract</button> ]
         $if(link)$
-        [ <a href="$link$" target="_blank">paper</a> ]
+        [ <a href="$link$">paper</a> ]
         $endif$
         $if(code)$
-        [ <a href="$code$" target="_blank">code</a> ]
+        [ <a href="$code$">code</a> ]
         $endif$
-        <div class="abstract"><div class="abstract_inner>"><p>$body$</div></div>
+        <div class="abstract"><div class="abstract_inner">$body$</div></div>
     </li>
+    $endfor$
 </ul>
-$endfor$
 
 <h2>Conference & Workshop Proceedings</h2>
 
@@ -30,17 +30,17 @@ $endfor$
         <span class="papertitle">$title$</span>.
         <span class="author">$authors$</span>.
         $if(venue)$
-        <span class="venue">$venue$</span>.
+        <span class="venue">$venue$</span>$if(venue-short)$ ($venue-short$)$endif$.
         $endif$
         <span class="date">$date$</span>.<br>
         [ <button type="button" class="collapsible">abstract</button> ]
         $if(link)$
-        [ <a href="$link$" target="_blank">paper</a> ]
+        [ <a href="$link$">paper</a> ]
         $endif$
         $if(code)$
-        [ <a href="$code$" target="_blank">code</a> ]
+        [ <a href="$code$">code</a> ]
         $endif$
-        <div class="abstract"><div class="abstract_inner>"><p>$body$</div></div>
+        <div class="abstract"><div class="abstract_inner">$body$</div></div>
     </li>
     $endfor$
 </ol>
@@ -55,12 +55,12 @@ $endfor$
         <span class="date">$date$</span>.<br>
         [ <button type="button" class="collapsible">abstract</button> ]
         $if(link)$
-        [ <a href="$link$" target="_blank">paper</a> ]
+        [ <a href="$link$">paper</a> ]
         $endif$
         $if(code)$
-        [ <a href="$code$" target="_blank">code</a> ]
+        [ <a href="$code$">code</a> ]
         $endif$
-        <div class="abstract"><div class="abstract_inner>"><p>$body$</div></div>
+        <div class="abstract"><div class="abstract_inner">$body$</div></div>
     </li>
     $endfor$
 </ol>
