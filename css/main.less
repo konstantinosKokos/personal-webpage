@@ -50,30 +50,30 @@ body {
   min-height: 100%;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3 {
+  color: @headingColor;
   font-family: @headFont;
   font-weight: @headWeight;
-  margin-top: 1.4em;
-  margin-bottom: 0.15em;
+  margin-top: 1.4rem;
+  margin-bottom: 0.15rem;
 }
 
-h1, h2, h3 { color: @headingColor; }
+h1 {
+  font-size: 120%;
+  margin-top: 2.2rem;
+  margin-bottom: 0.4rem;
+}
+
+h2 { font-size: 120%; }
+h3 { font-size: 105%; }
 
 h1 + *, h2 + *, h3 + * {
   margin-top: 0;
 }
 
-h4 {
-  margin-bottom: 1em;
-}
-
 #content > :first-child {
   margin-top: 0;
 }
-
-h1 { font-size: 150%; }
-h2 { font-size: 120%; }
-h3 { font-size: 110%; }
 
 a {
   text-decoration: none;
@@ -82,6 +82,18 @@ a {
 
 #content a:hover {
   text-decoration: underline;
+}
+
+.talk-meta {
+  color: @headingColor;
+  font-family: @headFont;
+  font-weight: @headWeight;
+  font-size: 110%;
+  margin-bottom: 0.15rem;
+}
+
+.talk-meta + * {
+  margin-top: 0;
 }
 
 .talktitle {

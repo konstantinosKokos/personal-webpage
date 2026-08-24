@@ -1,9 +1,6 @@
 {-# LANGUAGE OverloadedStrings #-}
 
 import Hakyll
-import qualified Data.Text as Text
-import Text.CSL as CSL
-import Control.Monad (liftM)
 
 main :: IO ()
 main = hakyll $ do
