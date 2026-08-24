@@ -1,5 +1,5 @@
 ---
-title: "Algebraic Positional Encodigns"
+title: "Algebraic Positional Encodings"
 date: 2024-12-11
 type: Contributed (Poster, Spotlight)
 at: The Thirty-Eighth Annual Conference on Neural Information Processing Systems
